@@ -3541,7 +3541,7 @@ list.forEach((one, index) => {
   if (/\d\s{7}\S/.test(one)) {
     // 市
     if (list[1] === '市辖区') {
-      list[1] = province[1] + '市辖区'
+      list[1] = '市辖区'
     }
 
     if (list[1] !== '县') {
