@@ -1,8 +1,11 @@
 {
   "name": "china-area-data",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "中国省份城市区数据",
   "main": "index.js",
+  "scripts": {
+    "build": "node scripts/format && node scripts/vux"
+  },
   "keywords": [
     "中国省份",
     "行政区域",
