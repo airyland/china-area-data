@@ -2,7 +2,7 @@
   "name": "china-area-data",
   "version": "3.0.0",
   "description": "中国省份城市区数据",
-  "main": "index.js",
+  "main": "data.js",
   "scripts": {
     "build": "node scripts/format && node scripts/vux"
   },
