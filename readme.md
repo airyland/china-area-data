@@ -1,5 +1,11 @@
 # 中国行政区域数据
 
+## 安装
+
+```
+npm install china-area-data
+```
+
 ## 版本说明
 
 目录下的 `data.json` 默认为最新版本。
