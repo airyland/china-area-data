@@ -8,11 +8,13 @@ const getPath = function (dir) {
 
 let intentMap = {
   '2': [6, 7, 8],
-  '3': [5, 10, 7]
+  '3': [5, 10, 7],
+  '4': [5, 10, 7]
 }
 
-build(2)
-build(3)
+// build(2)
+// build(3)
+build(4)
 
 function build (version) {
   const datas = fs.readFileSync(getPath(`../v${version}/data.v${version}.txt`), 'utf-8')
@@ -48,13 +50,13 @@ function build (version) {
         list[1] = '市辖区'
       }
 
-      if (list[1] !== '县') {
+      // if (list[1] !== '县') {
         city = [list[0], list[1]]
         if (!rs[province[0]]) {
           rs[province[0]] = {}
         }
         rs[province[0]][list[0]] = list[1]
-      }
+      // }
 
       if (!cities[list[0]]) {
         cities[list[0]] = {

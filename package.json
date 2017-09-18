@@ -1,6 +1,6 @@
 {
   "name": "china-area-data",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "中国省份城市区数据",
   "main": "data.js",
   "scripts": {

@@ -7,8 +7,9 @@ const getPath = function (dir) {
   return path.join(__dirname, dir)
 }
 
-build(2)
-build(3)
+// build(2)
+// build(3)
+build(4)
 
 function build (version) {
   const list = require(getPath(`../v${version}/data.json`))
