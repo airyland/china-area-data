@@ -1,7 +1,7 @@
 // 生成 VUX x-address 组件需要的地址数据，不包含港澳台地区
 
 "use strict"
-
+const fs = require('fs')
 const path = require('path')
 const getPath = function (dir) {
   return path.join(__dirname, dir)
@@ -9,7 +9,8 @@ const getPath = function (dir) {
 
 // build(2)
 // build(3)
-build(4)
+// build(4)
+build(5)
 
 function build (version) {
   const list = require(getPath(`../v${version}/data.json`))
@@ -39,5 +40,5 @@ function build (version) {
     })
   })
 
-  require('fs').writeFileSync(getPath(`../vux/china_address_v${version}.json`), JSON.stringify(rs, null, 4))
+  fs.writeFileSync(getPath(`../data-array.json`), JSON.stringify(rs, null, 4))
 }

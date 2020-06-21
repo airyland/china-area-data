@@ -8,13 +8,16 @@ npm install china-area-data
 
 ## 版本说明
 
-目录下的 `data.json` 默认为最新版本。
+目录下的 `data.json` 默认为最新版本。务必先查看变更再升级大版本。
 
-为了方便一些处理，在每个版本下生成了 `only_2_level_city_id.json` 文件方便统计和处理一些只有二级省市的条目。
+### v5
 
-vux 目录生成的是 [VUX](https://vux.li) 组件库地址组件 `XAddress` 的内置数据。
+[国家统计局统计数据（2019年10月31日）](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/index.html)
 
-如果你想自己执行数据生成，请使用 `npm run build`
+更新最新数据。
+东莞和中山没有区，填充了下一级的县信息。
+补充了台湾省数据。
+增加 data-array.json 数组格式。
 
 ### v4
 
