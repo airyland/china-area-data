@@ -14,10 +14,10 @@ npm install china-area-data
 
 [国家统计局统计数据（2019年10月31日）](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/index.html)
 
-更新最新数据。
-东莞和中山没有区，填充了下一级的县信息。
-补充了台湾省数据。
-增加 data-array.json 数组格式。
+* 更新最新数据。
+* 东莞和中山没有区，填充了下一级的县信息。
+* 补充了台湾省数据。
+* 增加 data-array.json 数组格式。
 
 ### v4
 
