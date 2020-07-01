@@ -25,9 +25,10 @@ function build (version) {
       if (i !== '86') {
         item.parent = i
       }
-      if (!/台湾|行政/.test(item.name)) {
-        rs.push(item)
-      }
+      rs.push(item)
+      // if (!/台湾|行政/.test(item.name)) {
+      //   rs.push(item)
+      // }
     }
   }
 
